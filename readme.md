@@ -27,10 +27,17 @@ packages für backend:
 npm i -D nodemon
 npm i express mongoose dotenv
 
-server.js: normal aufbauen (nur ohne EJS und anderem PORT, da React auch auf 3000 läuft)
+## Server
+server: normal aufbauen (nur ohne EJS und anderem PORT, da React auch auf 3000 läuft)
 
 npx create-react-app frontend
 
+## Frontend
+in der Frontend package.json den Eintrag  
+"proxy": "http://localhost:5000",  
+erstellen. (Macht in der Dev diesen Link vor die React Links)
+react-router-dom
+axios
 
 # Allgemein
 Wenn wir packages installieren: Überprüfen in welchem Ordner? Ist das package für unser Front oder Backend
