@@ -43,6 +43,7 @@ erstellen. (Stellt in der Dev diesen Link vor die React Links) => wir müssen ni
 * axios
 * was auch immer wir sonst brauchen (react-router-dom, ...)
 * in den Componenten wo wir Daten aus / an unser Backend brauchen nutzen wir axios und die methoden, die wir auf der jeweiligen URL liegen haben
+* Wenn wir nach einer Aktion mit unserem Backend eine Weiterleitung brauchen (z.B. nach einem post, put, ...) muss diese Weiterleitung als json-Objekt aus dem Backend kommen
 
 
 # Allgemein
